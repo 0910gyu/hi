@@ -9,9 +9,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
-import model.*;
+import model.CustomerDao;
+import model.CustomerVo;
 
 //모든 요청을 받고 처리하는 메인 controller 클래스
 //html or jsp등의 모든 요청 수락 -> 처리 -> 결과값 출력 지시 
